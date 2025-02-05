@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #752121;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2px;
+}
+
+.room,.dish {
+    display: flex;
+    align-items: center;
+    margin: 1px 0;
+}
+
+.room img, .dish img {
+    width: 150px;
+    height: 150px;
+    margin-right: 8px;
+    
+}
+
+.room-info, .dish-info {
+    flex: 1;
+}
+
+button {
+    background-color: #752121;
+    color: white;
+    border: 5px solid groove;
+    padding: 0.5px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0606bb;
+}
+
+#contact {
+    background-color: #752121;
+    color: white;
+    text-align: center;
+        padding: 1px 0;
+        margin-top: 10%;
+   
+}
+
+h2{
+    background-color: #752121;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+header img{
+    width: 90px;
+    border-radius: 100%;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.container-nav{
+    flex: 0.5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container2{
+    flex: 4;
+}
